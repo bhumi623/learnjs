@@ -31,3 +31,56 @@ console.log(typeof pi);
 age ++;//number
 console.log(age);
 
+//booleans
+let isTrue = false;
+console.log(isTrue);
+let isFalse = NaN;
+console.log(10 + undefined); //NaN
+
+//falsy
+//-> false
+//-> null
+//-> undefined
+//-> 0
+//-> -0
+//-> NaN
+//-> "", '', ``, (empty quotes)
+console.log(10>10);
+console.log(10 === 10); //true
+console.log(10 === '10'); //false
+console.log(10 !== '10'); //true
+console.log(10 == '10'); //true
+
+//strings
+let firstname = "Bhumi";
+let lastname = "Agarwal";
+let fullname = firstname + " " + lastname;
+console.log(fullname); //Bhumi Agarwal
+let full2name = firstname + lastname;
+console.log(full2name); //BhumiAgarwal
+let full3name = firstname.concat(lastname);
+console.log(full3name); //BhumiAgarwal
+
+firstname += " Agarwal";
+console.log(firstname); //Bhumi Agarwal
+firstname = "Bhumi";
+
+console.log(firstname.length); //5
+console.log(firstname[0]); //B
+
+console.log(firstname.toLowerCase());
+console.log(firstname.toUpperCase());
+console.log(firstname.slice(0, 2)); //Bh
+console.log(firstname.split('').join(''));
+console.log(firstname.split('').join(" "));
+console.log(firstname.includes("B"));
+
+let spacedname = "   Bhumi   ";
+console.log(spacedname.trim()); //Bhumi
+
+let desc = `i am 
+   sll`;
+   console.log(desc);
+
+let full5name = `${firstname} ${lastname} more`;
+console.log(full5name); //Bhumi Agarwal

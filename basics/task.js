@@ -1,5 +1,6 @@
 //1
 
+console.log(1);
 let name = "Bhumi";
 let whatDoYouWannaBecomeInYourLife = "Software Engineer";
 let gender = "Female";
@@ -12,6 +13,7 @@ console.log(LinkedinProfile);
 
 //2
 
+console.log(2);
 let firstFavNum = 7;
 let secondFavNum = 13;
 console.log(firstFavNum + secondFavNum);
@@ -21,5 +23,35 @@ console.log(firstFavNum / secondFavNum);
 console.log(firstFavNum % secondFavNum);
 console.log(firstFavNum ** secondFavNum);
 
+//3
 
+console.log(3);
+let isJsProgrammingLanguage = true;
+let isJsHard = false;
+let favNumb = 30;
+console.log(isJsProgrammingLanguage);
+console.log(isJsHard);
+console.log(favNumb + undefined);
 
+//4
+
+console.log(4);
+let firstFavNumb = 13;
+let secondFavNumb = 7;
+console.log(firstFavNumb > secondFavNumb);
+console.log(firstFavNumb < secondFavNumb);
+console.log(firstFavNumb >= secondFavNumb);
+console.log(firstFavNumb <= secondFavNumb);
+console.log(firstFavNumb === secondFavNumb);
+console.log(firstFavNumb == secondFavNumb);
+console.log(firstFavNumb !== secondFavNumb);
+console.log(firstFavNumb != secondFavNumb);
+
+//5
+console.log(5);
+let favActorLastName = "Agarwal";
+let fullname = `Bhumi ${favActorLastName}`;
+let uppercase = fullname.toUpperCase();
+let message = `my fav actress is ${uppercase} and she is very smart`;
+message += ` her best show is Silicon Valley`;
+console.log(message);
