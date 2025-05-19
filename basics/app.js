@@ -71,7 +71,7 @@ console.log(firstname[0]); //B
 console.log(firstname.toLowerCase());
 console.log(firstname.toUpperCase());
 console.log(firstname.slice(0, 2)); //Bh
-console.log(firstname.split('').join(''));
+console.log(firstname.split('').join('')); 
 console.log(firstname.split('').join(" "));
 console.log(firstname.includes("B"));
 
