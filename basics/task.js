@@ -90,3 +90,33 @@ switch(fruit){
         console.log("I have never heard of that fruit");
 
 }
+
+//8
+console.log(8);
+const car = {
+    type: "sedan",
+    model : "toyota",
+    color: "red",
+}
+console.log(typeof car);
+car.type = "Toyoto";
+car.wheels = 4;
+console.log(car);
+
+//9
+console.log(9);
+function myFunction(a,b){
+    return a*b;
+}
+console.log(myFunction(7, 13))
+
+//10
+console.log(10);
+function showCallFunc(fn){
+    const vari = 10;
+    fn(vari);
+}
+function fn(vari){
+    console.log(vari);
+}
+showCallFunc(fn);

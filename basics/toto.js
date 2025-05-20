@@ -59,3 +59,12 @@ let i = 0;
 for(i = 0; i<5; i++){
     console.log("Hello world",i);
 }
+
+//date
+const date = new Date();
+console.log(date);
+const year = date.getFullYear();
+console.log(`Year: ${year}`);//we can get month, date, day, hours, milliseconds, etc   
+console.log(date.toDateString());
+console.log(date.toISOString());
+console.log(date.toLocaleString());
