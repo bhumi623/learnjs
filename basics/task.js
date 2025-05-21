@@ -120,3 +120,49 @@ function fn(vari){
     console.log(vari);
 }
 showCallFunc(fn);
+
+//11
+console.log(11);
+console.log(`The quick
+brown fox
+jumps over
+the lazy dog`);
+let firstName = "Bhumi";
+let lastName = "Agarwal";
+console.log(`My name is ${firstName} ${lastName}`);
+
+//12
+console.log(12);
+//refactor using es6 arrow functions
+// setTimeout(function () {
+//     console.log("Hello");
+//     setTimeout(function () {
+//         console.log("Hey");
+//         setTimeout(function () {
+//             console.log("Namaste");
+//             setTimeout(function () {
+//                 console.log("Hi");
+//                 setTimeout(function () {
+//                     console.log("Bonjour");
+//                 }, 2000);    
+//             }, 2000);    
+//         }, 2000);
+//     }, 2000);
+// }, 2000);
+
+setTimeout( () => {
+    console.log("Hello");
+    setTimeout( () => {
+        console.log("Hey");
+        setTimeout( () => {
+            console.log("Namaste");
+            setTimeout( () => {
+                console.log("Hi");
+                setTimeout( () => {
+                    console.log("Bonjour");
+                }, 2000);    
+            }, 2000);    
+        }, 2000);
+    }, 2000);
+}, 2000);
+

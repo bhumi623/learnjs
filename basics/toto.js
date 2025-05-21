@@ -68,3 +68,49 @@ console.log(`Year: ${year}`);//we can get month, date, day, hours, milliseconds,
 console.log(date.toDateString());
 console.log(date.toISOString());
 console.log(date.toLocaleString());
+date.setDate(date.getDate() +1);
+
+//setInterval
+
+// setInterval(() => 
+//     console.log(`This will be generated every so second`) , 
+//     5000 );
+
+// setTimeout
+// setTimeout(function () {
+//     console.log(`This will be generated after 3 secs`);
+// }, 3000);
+
+//stopping after certain interval
+// const interval = setInterval(function () {
+//     console.log(`This will be generated every second`);
+// },
+// 1000
+// );
+
+// setTimeout( function () {
+//     clearInterval(interval);
+//     console.log(`Interval closed`);
+// },
+// 10000
+// );
+console.log(`2+2 = ${2+2}`);
+
+//arrow functions
+greet = (name = "Bhumi") => {
+    return `Hello ${name}`;
+};
+console.log(greet(`Agarwal`));
+
+function user(name, age, work) {
+    return {
+        name,
+        age,
+        work,
+        intro: () => {
+            console.log(`my name is ${name} and i am ${age} years old and i am a ${work}`);
+        },
+    };
+};
+const bhumi = user("Bhumi","18","student")
+console.log(bhumi.intro());
